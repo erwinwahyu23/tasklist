@@ -196,7 +196,7 @@ export default function Tasklist() {
                     {/* Task Text and Dates */}
                     <div className="flex-grow min-w-0">
                       <span
-                        className={`block text-sm sm:text-base transition-all duration-200 ${
+                        className={`block text-xs sm:text-sm transition-all duration-200 ${
                           task.completed
                             ? 'text-slate-400'
                             : 'text-slate-700'
